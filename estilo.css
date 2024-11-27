@@ -1,0 +1,64 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: white;
+    margin: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+    text-shadow: 0 0 5px red;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+    padding: 15px;
+    background-color: #333;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #222;
+    color: white;
+    border: 1px solid red;
+}
+
+.signup {
+    width: 100%;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.btn {
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkred;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background-color: #222;
+    color: white;
+    box-shadow: 0 0 5px red;
+}
+
+th, td {
+    border: 1px solid red;
+    padding: 10px;
+    text-align: center;
+}
